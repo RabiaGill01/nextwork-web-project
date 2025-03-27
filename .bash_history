@@ -8,3 +8,11 @@ export PATH=/usr/lib/jvm/java-1.8.0-amazon-corretto.x86_64/jre/bin/:$PATH
 mvn -v
 java -version
 mvn archetype:generate    -DgroupId=com.nextwork.app    -DartifactId=nextwork-web-project    -DarchetypeArtifactId=maven-archetype-webapp    -DinteractiveMode=false
+sudo dnf update -y
+sudo dnf install git -y
+git --version
+pwd
+git init
+git remote add origin https://github.com/RabiaGill01/nextwork-web-project.git
+git add . 
+git diff --staged
