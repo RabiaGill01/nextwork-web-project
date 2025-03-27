@@ -16,3 +16,16 @@ git init
 git remote add origin https://github.com/RabiaGill01/nextwork-web-project.git
 git add . 
 git diff --staged
+git commit -m "Updated index.jsp with new content"
+git push -u origin master
+git remote -v
+git credential reject https://github.com
+git push origin master
+git status
+git add .
+git commit -m "Updated index.jsp with new content"
+git push origin master
+git credential reject https://github.com
+git push origin master
+git remote -v
+git push origin master

@@ -1,0 +1,12 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "php.executables": {
+       "v7.4": "/usr/bin/php7.4" 
+
+    },
+    "remote.SSH.remotePlatform": {
+        "ec2-3-15-230-170.us-east-2.compute.amazonaws.com": "linux"
+    },
+    "github.gitAuthentication": false,
+    "git.timeline.showAuthor": false
+}
