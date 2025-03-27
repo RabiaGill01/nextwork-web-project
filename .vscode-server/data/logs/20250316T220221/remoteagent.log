@@ -1,0 +1,27 @@
+2025-03-16 22:02:22.275 [info] 
+
+
+
+
+2025-03-16 22:02:22.288 [info] Extension host agent started.
+2025-03-16 22:02:22.337 [info] Started initializing default profile extensions in extensions installation folder. file:///home/ec2-user/.vscode-server/extensions
+2025-03-16 22:02:22.347 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/ec2-user/.vscode-server/extensions
+2025-03-16 22:02:22.464 [info] [<unknown>][9e18e0ed][ExtensionHostConnection] New connection established.
+2025-03-16 22:02:22.465 [info] [<unknown>][964b2f6b][ManagementConnection] New connection established.
+2025-03-16 22:02:22.697 [info] [<unknown>][9e18e0ed][ExtensionHostConnection] <28989> Launched Extension Host Process.
+2025-03-16 22:02:56.032 [info] [<unknown>][964b2f6b][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-03-16 22:02:56.045 [info] [<unknown>][9e18e0ed][ExtensionHostConnection] <28989> Extension Host Process exited with code: 0, signal: null.
+2025-03-16 22:02:56.046 [info] Cancelling previous shutdown timeout
+2025-03-16 22:02:56.046 [info] Last EH closed, waiting before shutting down
+2025-03-16 22:02:59.641 [info] [<unknown>][1fd9a0f5][ExtensionHostConnection] New connection established.
+2025-03-16 22:02:59.645 [info] [<unknown>][1fd9a0f5][ExtensionHostConnection] <29155> Launched Extension Host Process.
+2025-03-16 22:02:59.669 [info] [<unknown>][209b1fa1][ManagementConnection] New connection established.
+2025-03-16 22:07:56.048 [info] New EH opened, aborting shutdown
+2025-03-16 22:07:56.051 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (file:///home/ec2-user/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/server-main.js:183:1060)
+    at process.emit (node:events:530:35)
+2025-03-16 22:35:08.443 [info] [<unknown>][209b1fa1][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2025-03-17 01:34:49.298 [info] [<unknown>][1fd9a0f5][ExtensionHostConnection] <29155> Extension Host Process exited with code: 0, signal: null.
+2025-03-17 01:34:49.298 [info] Last EH closed, waiting before shutting down
+2025-03-17 01:35:15.068 [info] [<unknown>][209b1fa1][ManagementConnection] The reconnection grace time of 3h has expired, so the connection will be disposed.
+2025-03-17 01:39:49.300 [info] Last EH closed, shutting down
