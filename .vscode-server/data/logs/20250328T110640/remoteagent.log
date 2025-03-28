@@ -1,0 +1,9 @@
+2025-03-28 11:06:41.064 [info] 
+
+
+
+
+2025-03-28 11:06:41.076 [info] Extension host agent started.
+2025-03-28 11:06:41.748 [error] [<unknown>][7f5862db][ExtensionHostConnection] Unknown reconnection token (never seen).
+2025-03-28 11:06:42.151 [error] [<unknown>][12fe8771][ManagementConnection] Unknown reconnection token (never seen).
+2025-03-28 11:11:41.078 [info] Last EH closed, shutting down

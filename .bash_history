@@ -29,3 +29,17 @@ git credential reject https://github.com
 git push origin master
 git remote -v
 git push origin master
+git add .
+git commit -m "Updated index.jsp with new content"
+git push origin master
+git push -u origin master
+git log
+git config --global user.name Rabia Gill
+git config --global user.email rabiagill5122@gmail.com
+git.add
+git add .
+git diff --staged
+git add.
+git add .
+git commit -m "Add new line to index.jsp"
+git push
