@@ -7,3 +7,67 @@
 2025-03-28 16:08:58.050 [info] [<unknown>][bc90f5c2][ManagementConnection] New connection established.
 2025-03-28 16:08:58.052 [info] [<unknown>][6fb8b51c][ExtensionHostConnection] New connection established.
 2025-03-28 16:08:58.260 [info] [<unknown>][6fb8b51c][ExtensionHostConnection] <556402> Launched Extension Host Process.
+2025-03-28 16:13:05.845 [info] [<unknown>][bc90f5c2][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-03-28 16:13:05.877 [info] [<unknown>][6fb8b51c][ExtensionHostConnection] <556402> Extension Host Process exited with code: 0, signal: null.
+2025-03-28 16:13:05.878 [info] Cancelling previous shutdown timeout
+2025-03-28 16:13:05.878 [info] Last EH closed, waiting before shutting down
+2025-03-28 16:13:09.249 [info] [<unknown>][caa1deb3][ExtensionHostConnection] New connection established.
+2025-03-28 16:13:09.250 [info] [<unknown>][ef7397dc][ManagementConnection] New connection established.
+2025-03-28 16:13:09.253 [info] [<unknown>][caa1deb3][ExtensionHostConnection] <557190> Launched Extension Host Process.
+2025-03-28 16:13:11.281 [error] CodeExpectedError: Could not find pty 4 on pty host
+    at I.W (file:///home/ec2-user/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:45:12275)
+    at I.updateTitle (file:///home/ec2-user/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:45:7722)
+    at O.s.<computed> (file:///home/ec2-user/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:45:2962)
+    at Object.call (file:///home/ec2-user/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:28:4204)
+    at el.s (file:///home/ec2-user/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:26:80918)
+    at el.q (file:///home/ec2-user/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:26:80441)
+    at ds.value (file:///home/ec2-user/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:26:79843)
+    at x.B (file:///home/ec2-user/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:26:2373)
+    at x.fire (file:///home/ec2-user/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:26:2591)
+    at process.C (file:///home/ec2-user/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:24:29877)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2025-03-28 16:15:20.312 [info] [<unknown>][c5a1b8ec][ExtensionHostConnection] New connection established.
+2025-03-28 16:15:20.316 [info] [<unknown>][c5a1b8ec][ExtensionHostConnection] <557642> Launched Extension Host Process.
+2025-03-28 16:15:20.318 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (file:///home/ec2-user/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/server-main.js:183:1060)
+    at process.emit (node:events:530:35)
+2025-03-28 16:15:20.321 [info] [<unknown>][1480415a][ManagementConnection] New connection established.
+2025-03-28 16:15:22.685 [error] CodeExpectedError: Could not find pty 5 on pty host
+    at I.W (file:///home/ec2-user/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:45:12275)
+    at I.updateTitle (file:///home/ec2-user/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:45:7722)
+    at O.s.<computed> (file:///home/ec2-user/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:45:2962)
+    at Object.call (file:///home/ec2-user/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:28:4204)
+    at el.s (file:///home/ec2-user/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:26:80918)
+    at el.q (file:///home/ec2-user/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:26:80441)
+    at ds.value (file:///home/ec2-user/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:26:79843)
+    at x.B (file:///home/ec2-user/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:26:2373)
+    at x.fire (file:///home/ec2-user/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:26:2591)
+    at process.C (file:///home/ec2-user/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:24:29877)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2025-03-28 16:15:30.468 [info] [<unknown>][ef7397dc][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-03-28 16:15:30.506 [info] [<unknown>][caa1deb3][ExtensionHostConnection] <557190> Extension Host Process exited with code: 0, signal: null.
+2025-03-28 16:15:30.507 [info] Cancelling previous shutdown timeout
+2025-03-28 16:15:55.167 [info] [<unknown>][1480415a][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-03-28 16:15:55.207 [info] [<unknown>][c5a1b8ec][ExtensionHostConnection] <557642> Extension Host Process exited with code: 0, signal: null.
+2025-03-28 16:15:55.207 [info] Last EH closed, waiting before shutting down
+2025-03-28 16:15:58.474 [info] [<unknown>][147e2e36][ManagementConnection] New connection established.
+2025-03-28 16:15:58.476 [info] [<unknown>][49f9414b][ExtensionHostConnection] New connection established.
+2025-03-28 16:15:58.480 [info] [<unknown>][49f9414b][ExtensionHostConnection] <557824> Launched Extension Host Process.
+2025-03-28 16:16:00.296 [error] CodeExpectedError: Could not find pty 6 on pty host
+    at I.W (file:///home/ec2-user/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:45:12275)
+    at I.updateTitle (file:///home/ec2-user/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:45:7722)
+    at O.s.<computed> (file:///home/ec2-user/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:45:2962)
+    at Object.call (file:///home/ec2-user/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:28:4204)
+    at el.s (file:///home/ec2-user/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:26:80918)
+    at el.q (file:///home/ec2-user/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:26:80441)
+    at ds.value (file:///home/ec2-user/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:26:79843)
+    at x.B (file:///home/ec2-user/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:26:2373)
+    at x.fire (file:///home/ec2-user/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:26:2591)
+    at process.C (file:///home/ec2-user/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/out/vs/platform/terminal/node/ptyHostMain.js:24:29877)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)

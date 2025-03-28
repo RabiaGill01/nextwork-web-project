@@ -43,3 +43,15 @@ git add.
 git add .
 git commit -m "Add new line to index.jsp"
 git push
+git add .
+git commit -m "Add new line to index.jsp"
+git push
+git commit -m "Add new line to index.jsp"
+git add.
+git commit -m "Add new line to index.jsp"
+git add .
+git commit -m "Add new line to index.jsp"
+git push
+git add .
+git commit -m "Add new line to index.jsp"
+git push
